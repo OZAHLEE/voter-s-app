@@ -1,0 +1,24 @@
+{
+   "name": "hello-world-server",
+   "main": "sample_2.js",
+   "scripts": {
+      "hws": "nodemon sample_2.js"
+   },
+   "private": true,
+   "dependencies": {
+      "apollo-server-express": "^1.4.0",
+      "babel": "^6.23.0",
+      "body-parser": "^1.19.0",
+      "bootstrap": "^4.5.3",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "graphql": "^0.13.2",
+      "graphql-tools": "^3.1.1",
+      "mariadb": "^2.5.2",
+      "mongodb": "^3.6.3",
+      "mysql": "^2.18.1"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.6"
+   }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>About</title>
+        <style>
+            h1{color:rgb(240, 230, 212)}
+            body{padding:10px;background-color:rosybrown;}
+        </style>
+    </head>
+
+    <body>
+        <div class="container" style="background-color: rosybrown;">
+
+        
+        <h1>Voter Eligibity Portal</h1>
+        <h3 style="color:rgb(241, 230, 191);border-bottom: 1px solid rgb(196, 168, 168);">Voter's Details</h3>
+    </div>
+    <form name="my_users" action="/submit-data" method="post">
+       First Name:&nbsp; <input type="text" name="fname" id="fname" autocomplete="off" required="yes"/><br>
+       Last Name: &nbsp;<input type="text" name="lname" id="lname" autocomplete="off" required="yes"/><br>
+       Birth Year:&nbsp;&nbsp; <input type="text" name="byear" id="byear"autocomplete="off" required="yes"/><br>
+       Nationality:&nbsp;<input type="text" name="nationality" value="Ugandan" id="nationality"autocomplete="off"/><br>
+       District:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <input type="text" name="district" id="district"autocomplete="off" required="yes"/><br>
+       Phone:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="phone" id="phone"autocomplete="off" required="yes"/><br>
+       Occupation:&nbsp;<select name="occupation" required="yes">
+           <option selected disabled>--Select Occupation--</option>
+           <option>Peasant Farmer</option>
+           <option>Teacher</option>
+           <option>Lawyer</option>
+           <option>Nurse</option>
+           <option>Doctor</option>
+           <option>Forces</option>
+           <option>Student</option>
+           <option>Self Employed</option>
+           <option>N/A</option>
+       </select><br>
+       <input type="submit" value="Submit" name="submitBtn"  id="submitBtn"/>
+    </form>
+    </form>
+    </body>
+</html>
